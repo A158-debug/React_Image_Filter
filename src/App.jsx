@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <Container sx={{ marginTop: "4rem", marginBottom: "4rem" }}>
         <Box sx={{ textAlign: "center", marginBottom: "3rem" }}>
-          <h1>Image Filter</h1>
+          <h1 style={{fontFamily:'sans-serif'}}>Image Filter</h1>
         </Box>
         <Grid container spacing={10}>
           <ImageField />
